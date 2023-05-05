@@ -20,6 +20,10 @@ d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
 print("\n3-D Array")
 print(d)
 
+arr = np.array([1, 2, 3, 4], ndmin=5)
+print(f"\n{arr}")
+print("number of dimensions: ", arr.ndim)
+
 print(a.ndim)
 print(b.ndim)
 print(c.ndim)
